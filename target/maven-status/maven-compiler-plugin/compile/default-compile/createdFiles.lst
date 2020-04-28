@@ -1,0 +1,4 @@
+pageObject\Trf.class
+pageObject\PlaceholderSuggestion.class
+base.class
+pageObject\LoginPage.class

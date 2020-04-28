@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="listeners"/>
+        <listener class-name="Reports.Report"></listener>
+    </listeners>
+
+
+
+
+    <test name="Dashboard Test">
+        <classes>
+            <class name="Dashboard">
+
+            </class>
+        </classes>
+    </test>
+
+    <test name="Placeholder">
+        <classes>
+            <class name="Placeholder">
+
+            </class>
+        </classes>
+    </test>
+    <test name="TRF">
+        <classes>
+            <class name="TrfManagement">
+
+            </class>
+        </classes>
+    </test>
+
+
+</suite>
